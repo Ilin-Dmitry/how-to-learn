@@ -1,6 +1,4 @@
-* {
-  border: 1px solid red;
-}
+
 
 .page {
   min-width: 1100px;
@@ -199,10 +197,6 @@
   z-index: 1;
 }
 
-/* .digits__section-subtitle {
-  margin: 20px 0 0;
-} */
-
 
 
 /* ===  ===  ===
@@ -356,10 +350,6 @@
   flex-direction: column;
   justify-content: space-between;
 }
-
-.footer__column_content_info {}
-
-.footer__column_content_social {}
 
 .logo_place_footer {
   height: 35px;
