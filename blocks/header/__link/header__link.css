@@ -2,21 +2,11 @@
   text-decoration: none;
   color: #2f80ed;
   position: relative;
-  opacity: 1
+  opacity: 1;
+  transition: opacity .3s ease;
 }
 
-.header__link:after {
-  content: "";
-  height: 1px;
-  width: 70%;
-  background-color: #2f80ed;
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  opacity: 0;
-  transition: opacity .2s ease;}
-
-.header__link:hover:after {
-  opacity: 1;
+.header__link:hover {
+  opacity: .7;
 }
 

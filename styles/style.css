@@ -1,0 +1,83 @@
+* {
+  border: 1px solid red;
+}
+
+/* ==== ==== ====
+     TECHNIQUES
+   ==== ==== ==== */
+
+.techniques {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.cards {
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 922px;
+  margin: 0;
+}
+
+.cards__item {
+  box-sizing: inherit;
+  list-style: none;
+  max-width: 240px;
+  margin-right: 100px;
+}
+
+.cards__item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 60px 40px 43px;
+}
+
+.cards__title {
+  margin: 0 0 16px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cards__description {
+  margin: 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* ==== ==== ====
+       VIDEO
+   ==== ==== ==== */
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 100px;
+}
+
+.video__iframes {
+  margin-bottom: -60px;
+  font-size: 0;
+  padding-top: 50px;
+}
+
+.video__iframe:first-of-type {
+  margin-right: 20px;
+}
+
+
