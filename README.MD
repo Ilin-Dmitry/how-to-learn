@@ -8,3 +8,5 @@
 - iframe для вставки Видео
 
 Создана файловая структура по БЭМ (Nested)
+
+**[Ссылка на сайт](https://ilin-dmitry.github.io/how-to-learn/index.html)**
